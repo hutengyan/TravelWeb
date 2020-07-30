@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="作业0710:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/0710_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="作业0710/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="作业0710" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.19.jar" />
+          <element id="file-copy" path="D:/commons-dbutils-1.7/commons-dbutils-1.7.jar" />
+          <element id="file-copy" path="D:/c3p0-0.9.5.5/lib/c3p0-0.9.5.5.jar" />
+          <element id="file-copy" path="D:/mysql-connector-java-8.0.19/mysql-connector-java-8.0.19.jar" />
+          <element id="library" level="project" name="Arquillian JUnit:Release" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar" />
+          <element id="library" level="module" name="JUnit4" module-name="作业0710" />
+          <element id="file-copy" path="D:/c3p0-0.9.5.5/lib/mchange-commons-java-0.2.19.jar" />
+          <element id="file-copy" path="D:/fastjson-1.2.72.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

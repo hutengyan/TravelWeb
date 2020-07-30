@@ -1,0 +1,92 @@
+/**{*/
+    /*margin:0;*/
+    /*padding:0;*/
+/*}*/
+
+/*ul{*/
+    /*list-style:none;*/
+/*}*/
+
+/*body{*/
+    /*font-family:"微软雅黑";*/
+    /*color:#14191E;*/
+/*}*/
+
+.main{
+    width:1200px;
+    height:600px;
+    margin:30px auto;
+    overflow:hidden;
+    position:relative;
+}
+
+.banner{
+    width:1200px;
+    height:600px;
+    overflow:hidden;
+    position:relative;
+}
+
+.banner-slide{
+    width:1200px;
+    height:600px;
+    background-repeat:no-repeat;
+    position:absolute;
+    display:none;
+}
+
+.slide-active{
+    display:block;
+}
+
+.button{
+    position:absolute;
+    width:40px;
+    height:80px;
+    left:0px;
+    top:50%;
+    margin-top:-40px;
+    background:url(resources/travel-images/icon/next.png) no-repeat center center;
+    background-size:25px;
+}
+
+.button:hover{
+    background-color:#333;
+    opacity:0.5;
+    filter: alpha(opacity=80);
+}
+
+.prev{
+    transform: rotate(180deg);
+}
+
+.next{
+    left:auto;
+    right:0;
+}
+
+.dots{
+    position:absolute;
+    right:35px;
+    bottom:24px;
+    text-align:right;
+}
+
+.dotsspan{
+    display:inline-block;
+    width:12px;
+    height:12px;
+    line-height:12px;
+    border-radius:50%;
+    background:rgba(7,17,27,0.4);
+    box-shadow:0 0 0 2px;
+    rgba(255,255,255,0.8)inset;
+    margin-left:8px;
+    cursor:pointer;
+}
+
+.dotsspan.active{
+    box-shadow:0 0 0 2px;
+    rgba(7,17,27,0.4s)inset;
+    background:#fff;
+}
