@@ -106,8 +106,8 @@
     for(i=i*9;i<images.size();i++){
         Image image = images.get(i);
 %>
-<div name=<%=pages%> style="display:none">
-    <a href="/detail.image?path=<%=image.getPath()%>"><img src=<%="/resources/travel-images/large/"+image.getPath()%>><br></a>
+<div style="float:left;margin-left: 100px;width: 300px" name=<%=pages%> style="display:none">
+    <a href="/detail.image?path=<%=image.getPath()%>"><img style="height: 250px;width: 250px" src=<%="/resources/travel-images/large/"+image.getPath()%>><br></a>
     <p>作者：<%=image.getUserName()%></p>
     <p>标题：<%=image.getTitle()%></p>
     <p>图片主题：<%=image.getContent()%></p>
@@ -119,7 +119,7 @@
     }
 %>
 </div>
-<div style="width: 100%;margin-bottom: 20px;margin-top: 10px">
+<div class="pull-right" style="width: 100%;margin-bottom: 20px;margin-top: 10px">
     <div style="margin-right: 50px;float: right;margin-bottom: 20px">
 <%
     for(int i=1;i<pages+1;i++){

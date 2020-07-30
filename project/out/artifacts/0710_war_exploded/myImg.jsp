@@ -124,7 +124,7 @@
         }
     }
 %>
-<div style="float:left;width: 100%;margin-bottom: 20px;margin-top: 10px">
+<div class="pull-right" style="float:left;width: 100%;margin-bottom: 20px;margin-top: 10px">
     <div style="margin-right: 50px;float: right;margin-bottom: 20px;margin-top: 10px">
 <%
     for(int i=1;i<pages+1;i++){
